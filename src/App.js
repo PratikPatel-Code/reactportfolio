@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-//import Nav from "./components/Nav";
+import Nav from "./components/Nav";
 import About from "./components/About";
-//import Contact from "./components/Contact";
-//import Portfolio from "./components/Portfolio";
-//import Footer from "./components/Footer";
-//import "./css/app.css";
+import Contact from "./components/Contact";
+import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
+import "./css/app.css";
 
 function App() {
   const [page, setPage] = useState("about");

@@ -1,31 +1,29 @@
 import React from "react";
 import "../css/nav.css";
 
+// Whenever we try to render an array containing JSX, React knows to render each JSX element separately
 function Nav(props) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div>
-        <ul
-          class=" nav justify-content-center"
-          class="navbar-nav"
-          style="font-weight: bold;"
-        >
-          <li class=" nav-item active">
-            <a style="font-size: 25px;" class="nav-link" href="index.html">
+    <nav className="">
+      <div className="">
+        <div className="" id="">
+          <div className="">
+            <a
+              className=""
+              aria-current="page"
+              onClick={() => props.setPage("about")}
+              href="#"
+            >
               About Me
             </a>
-          </li>
-          <li class="nav-item active">
-            <a style="font-size: 25px;" class="nav-link" href="about.html">
+            <a className="" href="#" onClick={() => props.setPage("portfolio")}>
               Portfolio
             </a>
-          </li>
-          <li class="nav-item active">
-            <a style="font-size: 25px;" class="nav-link" href="contact.html">
-              Contact Me <span class="sr-only">(current)</span>
+            <a className="" onClick={() => props.setPage("contact")} href="#">
+              Contact
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </nav>
   );

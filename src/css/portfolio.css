@@ -1,34 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(193, 193, 247);
+}
+
 section {
   padding-bottom: 40px;
 }
 
 .opaque {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(200, 200, 243);
   border-radius: 10px;
   color: rgb(255, 255, 255);
 }
 
 h1 {
   font-size: 50px;
+  -webkit-text-stroke: 1px black;
 }
 
 .projectContainer {
-  height: 300px;
+  height: 450px;
+  width: 550o;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 .projectImage {
   margin: 10px;
   height: 100%;
-}
-
-.overlay {
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  transition: background-color 0.5s ease-in-out;
-}
-
-.overlay:hover {
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #proj1 {
@@ -68,11 +70,15 @@ h1 {
 }
 
 h2 {
-  background-color: black;
+  background-color: rgb(107, 107, 248);
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  float: right;
 }
 
 .githubLink {
   font-size: 20px;
-  text-decoration: underline;
 }

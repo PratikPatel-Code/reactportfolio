@@ -9,7 +9,7 @@ const notEmpty = (check, location, message) => {
   } else {
     warning.textContent = "";
     if (check === "email") {
-      // taken from my regex homework
+      // taken from my regex homework, help of classmate Dylan
       const regex =
         /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
@@ -40,16 +40,14 @@ const messageCheck = () => {
 
 function Contact() {
   return (
-    <section className="">
-      <div className="">
-        <h1 className="">Contact</h1>
+    <section>
+      <div>
+        <h1>Contact</h1>
       </div>
-      <div className="">
-        <form className="">
-          <div className="">
-            <label for="email" className="">
-              Email address
-            </label>
+      <div>
+        <form>
+          <div>
+            <label for="email">Email address</label>
             <input
               type="email"
               className=""
@@ -58,17 +56,13 @@ function Contact() {
             />
             <small id="" class=""></small>
           </div>
-          <div className="">
-            <label for="name" className="">
-              Name
-            </label>
-            <input type="text" className="" id="" onBlur={() => nameCheck()} />
-            <small id="nameHelp" class=""></small>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" onBlur={() => nameCheck()} />
+            <small id="nameHelp"></small>
           </div>
           <div className="">
-            <label for="message" className="">
-              Message
-            </label>
+            <label for="message">Message</label>
             <textarea
               className=""
               aria-label="With textarea"
@@ -76,13 +70,9 @@ function Contact() {
               id="message"
               onBlur={() => messageCheck()}
             ></textarea>
-            <small id="messageHelp" class=""></small>
           </div>
-          <button type="submit" className="">
-            Submit
-          </button>
+          <button type="submit">Submit</button>
         </form>
-        <div className=""></div>
       </div>
     </section>
   );

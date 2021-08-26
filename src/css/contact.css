@@ -7,3 +7,13 @@
 h1 {
   font-size: 50px;
 }
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3cbc8d;
+  color: white;
+}

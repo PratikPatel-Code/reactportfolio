@@ -7,7 +7,7 @@ function Portfolio({ linkHandler }) {
       <div className="row text-center">
         <h1 className="">Portfolio</h1>
 
-        <div className="projectContainer col-sm-6 my-3">
+        <div className="projectContainer">
           <div className="projectImage" id="proj1">
             <div
               className="overlay"
@@ -55,7 +55,7 @@ function Portfolio({ linkHandler }) {
             </div>
           </div>
         </div>
-        <div className="projectContainer col-sm-6 my-3">
+        <div className="projectContainer ">
           <div className="projectImage" id="proj3">
             <div
               className="overlay"

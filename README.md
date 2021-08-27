@@ -8,7 +8,7 @@ https://warm-plains-63656.herokuapp.com/
 
 ## Project Overview:
 
-Updated professional coding portfolio using react. This version includes a form
+Updated professional coding portfolio using react. This version includes a form.
 
 #
 

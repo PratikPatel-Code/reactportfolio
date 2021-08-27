@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Pratik-Patel-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My professional coding portfolio.
 
-## Available Scripts
+https://warm-plains-63656.herokuapp.com/
 
-In the project directory, you can run:
+#
 
-### `npm start`
+## Project Overview:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Updated professional coding portfolio using react. This version includes a form
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#
 
-### `npm test`
+## Project Goals:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Include a picture and breif bio.
+2. Showcase what I have learned using CSS, bootstrap, HTML, and REACT.
+3. Link to my resume that will open up a PDF in browser.
+4. Updated LinkedIn profile.
+5. Link to my GitHub profile with pinned assignments including group project 1.
+6. Portfolio is mobile compatible.
+7. When you click on project link it takes you to the deployed version.
+8. When you click on the project picture, it takes you to the deployed app.
 
-### `npm run build`
+#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![portfoliogif](public/profile.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Conributers
 
-### `npm run eject`
+[Pratik Patel](https://github.com/PratikPatel-Code/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built With:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Visual Studio](https://visualstudio.microsoft.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[CSS](https://www.w3.org/TR/CSS/#css)
 
-## Learn More
+[Bootstrap](https://getbootstrap.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[REACT](https://reactjs.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#
 
-### Code Splitting
+## Links:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Email](pratikpatel_85@yahoo.com)
 
-### Analyzing the Bundle Size
+[Github Profile](https://github.com/PratikPatel-Code/reactportfolio/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Pratik Patel Portfolio](https://warm-plains-63656.herokuapp.com/)
